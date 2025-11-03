@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>CFBundleURLTypes</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.780214120363-19idufs2raphfmrdviottn3fgdrt1v33</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>780214120363-19idufs2raphfmrdviottn3fgdrt1v33.apps.googleusercontent.com</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Necesitamos acceder a la red local para conectar con el servidor PHP</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Necesitamos usar la cámara para tomar fotos de evidencias</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Necesitamos acceder a tu galería para guardar fotos</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
